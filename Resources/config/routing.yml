@@ -1,0 +1,3 @@
+form_step_homepage:
+    path:     /dfdf
+    defaults: { _controller: FormStepBundle:Default:index }

@@ -1,0 +1,6 @@
+services:
+    form_step.form_step:
+        class: FormStepBundle\Service\FormStep
+        calls:
+            - [ setFormFactory, [ '@form.factory' ] ]
+            - [ setDispatcher, [ '@event_dispatcher' ] ]

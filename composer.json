@@ -1,0 +1,18 @@
+{
+  "name" : "dev2choiz/jsinsert",
+  "description" : "Gérer facilement l'affichage de vos formulaires étape par étape.",
+  "type" : "symfony-bundle",
+  "version" : "0.1",
+  "authors" : [{
+    "name" : "Dev2Choiz",
+    "email" : "dev2choiz@gmail.com"
+  }],
+  "license" : "MIT",
+  "require" : {
+  },
+  "autoload" : {
+    "psr-4" : {
+      "FormStepBundle\\" : ""
+    }
+  }
+}
