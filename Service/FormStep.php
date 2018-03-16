@@ -17,11 +17,9 @@ class FormStep
 {
     /** @var $configForms */
     public $configForms;
-
     /** @var  EventDispatcher $dispatcher */
     public $dispatcher;
-
-    /** @var  object $objectData */
+    /** @var  \stdClass $objectData */
     public $objectData;
     /** @var  string $formTypeClass */
     public $formTypeClass;

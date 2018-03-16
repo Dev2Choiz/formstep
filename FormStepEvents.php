@@ -1,6 +1,5 @@
 <?php
 
-
 namespace FormStepBundle;
 
 /**
@@ -33,7 +32,7 @@ final class FormStepEvents
     /**
      * PRE_SET_DATA
      *
-     * Permet de modifier les données, les metadata
+     * Permet de modifier les données, les metadatas
      * Mettre fin au formulaire
      * Empecher la fin du formulaire (definir la prochaine étape se fera dans un événement PRE_NEXT_STEP)
      * Ne permet pas de changer l'etape à afficher apres
@@ -41,4 +40,3 @@ final class FormStepEvents
      */
     const PRE_SET_DATA = 'formstep.preSetData';
 }
-

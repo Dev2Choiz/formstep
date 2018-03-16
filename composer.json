@@ -1,5 +1,5 @@
 {
-  "name" : "dev2choiz/jsinsert",
+  "name" : "dev2choiz/formstep",
   "description" : "Gérer facilement l'affichage de vos formulaires étape par étape.",
   "type" : "symfony-bundle",
   "version" : "0.1",
